@@ -1,0 +1,49 @@
+/* Apply basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background and container styling */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Center the button */
+.container {
+    text-align: center;
+}
+
+/* Style the button */
+button {
+    background-color: #1E88E5;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add hover and active states */
+button:hover {
+    background-color: #1565C0;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Button focus outline for accessibility */
+button:focus {
+    outline: 2px solid #BBDEFB;
+    outline-offset: 4px;
+}
